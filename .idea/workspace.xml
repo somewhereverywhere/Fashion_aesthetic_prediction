@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="070b6c20-2adf-498f-8820-e68cd14ee5e2" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fashion aesthetic prediction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion_aesthetic_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/query.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/query2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/query_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho0112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Boho/boho24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up 7112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Fluffed Up/fluffed up89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic063.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic065.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic067.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic068.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic069.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/Granpa chic77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic01 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic02 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic03 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic04 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic05 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic06 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Granpa Chic/granpa chic10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine306.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine703.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine704.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine705.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine706.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine708.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine709.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine712.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine713.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine714.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine715.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyper feminine716.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Hyper Feminine/hyperfeminine08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion41 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion42 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion43 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion44 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion51 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion52 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion53 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion54 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Jelly Fashion/jelly fashion55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print801.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print802.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print803.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print805.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print808.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print809.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print81 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print810.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print811.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print812.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print813.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print814.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print815.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print817.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print818.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print82 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print83 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print84 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopard print87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint018.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint019.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint026.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2601.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2603.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2604.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2606.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2607.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2608.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2609.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2611.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2613.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2614.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2616.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2618.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2619.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2621.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Leopard Print/leopardprint2622.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury202.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury205.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury206.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury209.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury210.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury211.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury212.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury213.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury302.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury303.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury304.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury305.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury306.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury310.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury701.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury703.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury704.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury705.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury706.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury707.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury708.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury709.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury712.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury713.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury714.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train/Quiet Luxury/quiet luxury86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho601.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho603.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho604.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho606.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho607.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho608.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho609.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho611.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho613.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho614.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho615.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho616.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho617.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho618.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho619.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/boho/boho621.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up601.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up602.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up603.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up604.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up606.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up607.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up608.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up609.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up611.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up613.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up614.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up72 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up73 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up74 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up75 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up76 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up77 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/fluffed up/fluffed up78 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic41 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic42 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic43 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic44 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic45 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic46 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/granpa chic/granpa chic49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine412.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine413.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyper feminine86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyperfeminine07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/hyper feminine/hyperfeminine08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/jelly fashion/jelly fashion87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/leopard print/leopard print410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury401.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury402.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury403.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury405.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury407.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury408.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury410.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury411.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury412.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate/quiet luxury/quiet luxury413.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;somewhereverywhere&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/somewhereverywhere/fashion_aesthetic_prediction.iml.git&quot;,
+    &quot;accountId&quot;: &quot;397a6d4d-351f-47d3-9df4-c5f5081513da&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/evaluation.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lrbENSJ0SdlmG823O6pcbVlDGb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.architecture.executor": "Run",
+    "Python.compile.executor": "Run",
+    "Python.data.executor": "Run",
+    "Python.display.executor": "Run",
+    "Python.evaluation.executor": "Run",
+    "Python.feature extraction.executor": "Run",
+    "Python.feature_extraction.executor": "Run",
+    "Python.fine tune.executor": "Run",
+    "Python.fine_tune.executor": "Run",
+    "Python.predict.executor": "Run",
+    "Python.recommend.executor": "Run",
+    "Python.recommendation.executor": "Run",
+    "Python.train.executor": "Run",
+    "Python.training.executor": "Run",
+    "Python.transfer.executor": "Run",
+    "Python.validation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="compile" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="fashion aesthetic prediction" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compile.py" />
+      <option name="PARAMETERS" value="--image_path test/query.jpg" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="070b6c20-2adf-498f-8820-e68cd14ee5e2" name="Changes" comment="" />
+      <created>1725941030123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725941030123</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+</project>
